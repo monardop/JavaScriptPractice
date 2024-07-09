@@ -12,7 +12,7 @@ body {
     background-color: #192229;
 }
 
-button {
+.inactiveButton {
     background-color: var(--button_color);
     border: none;
     margin: 5px;
@@ -46,8 +46,13 @@ button {
     border: solid 1px var(--border_color);
 }
 
-.screenFrame > p {
-    font-size: larger;
+.screenFrame > .screen {
+    font-size: large;
+}
+
+.screenFrame > .result {
+    font-size: xx-large;
+    text-align: right;
 }
 
 /******************************************************************************
