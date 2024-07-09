@@ -1,10 +1,72 @@
+:root {
+    --container_color: #212e36;
+    --border_color: #2a3b47;
+    --ppal_color: #52a5e0;
+    --letter_color: #eff3f5;
+    --screen_color: #c8cdd0;
+    --button_color: #a2a6a8;
+    --buttonAnimation_color: #6f7172;
+  }
+
+body {
+    background-color: #192229;
+}
+
+button {
+    background-color: var(--button_color);
+    border: none;
+    margin: 5px;
+    color: var(--letter_color);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.special {
+    background-color: crimson;
+}
+
+.buttonAnimation {
+    background-color: var(--buttonAnimation_color);
+    border-style: none solid solid none;
+    border-width: thick;
+}
+
 .mainFrame {
-    background-color: aquamarine;
-    margin: 50px 50px 50px 50px;
+    background-color: var(--border_color);
+    margin: auto auto auto auto;
     width: 400px;
     height: 300px;
+    padding: 20px;
 }
 
 .screenFrame {
-    background-color: azure;
+    background-color: var(--screen_color);
+    height: 60px;
+    padding: 10px;
+    border: solid 1px var(--border_color);
+}
+
+.screenFrame > p {
+    font-size: larger;
+}
+
+/******************************************************************************
+ * Buttons section 
+******************************************************************************/
+.buttonFrame {
+    display: flex;
+    margin-top: 20px;
+    height: 210px;
+}
+
+.buttonFrame > .numButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 240px;
+}
+
+.buttonFrame > .operations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 160px;
 }
