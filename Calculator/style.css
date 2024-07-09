@@ -1,0 +1,10 @@
+.mainFrame {
+    background-color: aquamarine;
+    margin: 50px 50px 50px 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.screenFrame {
+    background-color: azure;
+}
