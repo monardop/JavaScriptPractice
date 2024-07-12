@@ -47,12 +47,14 @@ body {
 }
 
 .screenFrame > .screen {
+    height: 25px;
     font-size: large;
 }
 
 .screenFrame > .result {
     font-size: xx-large;
     text-align: right;
+    height: 25px;
 }
 
 /******************************************************************************
