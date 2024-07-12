@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/76ed09cc87.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Presupuesto mensual</title>
+</head>
+<body>
+
+<h1>Gasto mensual</h1>
+
+
+<main>
+
+    <div class="columna-izquierda">
+        <div class="ingresos fondo redondeo padding">
+            <h2>Ingreso</h2>
+            <div class="datoIn">
+                <input type="number" class="redondeo" id="ingreso" value="0">
+                <button class="redondeo" id="dineroInicial">Ingresar</button>
+            </div>
+        </div>
+
+        <div class="ingresos fondo redondeo padding">
+
+            <div class="gasto">
+                <h2>¿Cuánto gastó?</h2>
+                <div class="datoIn">
+                    <input type="number" class="redondeo" id="gasto" value="0">
+                    <button class="redondeo" id="gastos">Ingresar</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <div class="columna-derecha ">
+    
+        <div class="inicial flex fondo redondeo padding margen">
+            <span class="fas fa-hand-holding-usd"></span>
+            <h3>Inició con:</h3>
+            <p id="empezo">0</p>
+        </div>
+        <div class="lista flex fondo redondeo padding margen">
+            <span class="fas fa-funnel-dollar"></span>
+            <h3>Gastos realizados:</h3>
+            <p id="gastaste">0</p>
+        </div>
+        <div class="total flex fondo redondeo padding margen">
+            <span class="fas fa-file-invoice-dollar"></span>
+            <h3>Quedaron:</h3>            
+            <p id="quedo">0</p>
+            <button class="redondeo" id="totalGastado">Calcular</button>
+        </div>
+        
+    </div>
+
+</main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
