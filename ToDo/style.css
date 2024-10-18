@@ -1,0 +1,90 @@
+/* General */
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+input[type=button], input[type=submit] {
+    cursor: pointer;
+}
+
+/* Form section */
+
+.form {
+  background: #4b4b4b;
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;  
+  color: aliceblue;
+  margin-bottom: 15px;
+}
+
+input {
+    padding: 2px;
+    margin: 5px 0px;
+    border-radius: 5%;
+    border: none;
+}
+
+input[type="text"] {
+  
+  border-bottom: 2px solid blue;
+  
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}
+
+input[type="datetime-local"] {
+  color: red;
+}
+
+input[type="submit"] {
+    background-color: aquamarine;
+    padding: 5px 8px;
+}
+
+/* elements section */
+
+.elements {
+  width: 60%;
+}
+
+.task-card {
+  background-color: antiquewhite;
+}
+summary {
+  font-weight: bold;
+}
+summary > span {
+  color: rgba(10, 10, 10, 0.349);
+  font-weight: lighter;
+}
+
+.task-description{
+    font-size: small;
+}
+
+input[type="button"] {
+    padding: 5px 8px;
+}
+
+input[type="button"]:hover {
+    border-bottom: 2px black;
+}
+
+#done {
+    background-color: greenyellow;
+}
+#fail {
+    background-color: rgb(247, 90, 90);
+}

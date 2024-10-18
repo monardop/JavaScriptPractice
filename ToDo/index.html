@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="form">
+        <label for="newTask">New task:</label>
+        <input type="text" name="task" placeholder="Insert task" id="task" />
+        <input
+          type="text"
+          name="description"
+          placeholder="Insert description"
+          id="description"
+        />
+        <input
+          type="datetime-local"
+          name="datetime"
+          id="dateTime"
+          placeholder="18/10/2024 12:00"
+        />
+        <input type="submit" value="Submit" />
+      </section>
+
+      <section class="elements">
+        <div class="task-card">
+          <details name="faq" close>
+            <summary>Task name | <span>Fecha</span></summary>
+            <p class="task-description">Task description</p>
+          </details>
+          <input type="button" value="Done" id="done"/>
+          <input type="button" value="Failed" id="fail" />
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
