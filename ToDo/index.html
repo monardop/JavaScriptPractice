@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <h1>Task manager</h1>
     <main>
       <section class="form">
-        <label for="newTask">New task:</label>
+        <h2>Create task</h2>
         <input type="text" name="task" placeholder="Insert task" id="task" />
         <input
           type="text"
@@ -23,17 +24,16 @@
           id="dateTime"
           placeholder="18/10/2024 12:00"
         />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" id="submitButton"/>
       </section>
 
-      <section class="elements">
+      <section class="elements" id="cardSection">
         <div class="task-card">
           <details name="faq" close>
             <summary>Task name | <span>Fecha</span></summary>
             <p class="task-description">Task description</p>
           </details>
           <input type="button" value="Done" id="done"/>
-          <input type="button" value="Failed" id="fail" />
         </div>
       </section>
     </main>
