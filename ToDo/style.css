@@ -50,7 +50,7 @@ input[type="text"]:focus {
 }
 
 input[type="datetime-local"] {
-  color: red;
+  font-size: large;
 }
 
 input[type="submit"] {
@@ -59,14 +59,14 @@ input[type="submit"] {
 }
 
 /* elements section */
-
-.elements {
+.right {
   width: 60%;
-  
 }
+
 
 .task-card {
   background-color: antiquewhite;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
@@ -89,13 +89,24 @@ input[type="button"] {
     padding: 5px 8px;
 }
 
-input[type="button"]:hover {
-    border-bottom: 2px black;
-}
-
 #done {
     background-color: greenyellow;
     color: green;
     width: 50%;
     max-width: 100px;
+}
+
+/* finished section */
+
+.task-card-finished{
+  background-color: aquamarine;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  max-width: 500px;
+}
+.finishedTask {
+  text-decoration: dashed;
 }
