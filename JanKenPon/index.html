@@ -1,34 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Piedra, papel o tijera</h1>
 
-<main>
-    <div class="container">
-        <p>Choose your fighter</p>
-        <div id="botones" >
-            <button id="rock"><img src="img/piedra.svg"></button>
-            <button id="paper"><img src="img/papel.svg"></button>
-            <button id="scissors"><img src="img/tijeras.svg" ></button>
+      <section class="resultado" id="resultado">
+        <div id="usuario">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, exercitationem velit molestiae ea a ex unde amet quae dolor temporibus magnam suscipit iure sequi ipsa. Aperiam obcaecati similique corporis omnis!</p>
         </div>
-    </div>
-    
-    
-    <div id="resultado"></div>
+        <div id="compu">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sapiente hic dolore aliquam, nobis, dolor totam quibusdam minima at laboriosam consequuntur quod commodi optio quo harum dignissimos debitis esse repellat.</p>
+        </div>
+      </section>
+      <h3>El ganador es Tu vieja</h3>
 
-    <div id="result">
-        
-    </div>
-    
-
-</main>
+      <section class="botones">
+        <button class="boton animacion boton-piedra" id="rock" title="Piedra">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-hand-grab"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M8 11v-3.5a1.5 1.5 0 0 1 3 0v2.5" />
+            <path d="M11 9.5v-3a1.5 1.5 0 0 1 3 0v3.5" />
+            <path d="M14 7.5a1.5 1.5 0 0 1 3 0v2.5" />
+            <path
+              d="M17 9.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"
+            />
+          </svg>
+        </button>
+        <button class="boton animacion boton-papel" id="paper" title="Papel">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-hand-stop"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5" />
+            <path d="M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5" />
+            <path d="M14 5.5a1.5 1.5 0 0 1 3 0v6.5" />
+            <path
+              d="M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"
+            />
+          </svg>
+        </button>
+        <button class="boton animacion boton-tijeras" id="scissors" title="Tijeras">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-hand-two-fingers"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+            <path
+              d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"
+            />
+            <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+            <path d="M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5" />
+          </svg>
+        </button>
+      </section>
+    </main>
     <script src="juego.js"></script>
-</body>
-
+  </body>
 </html>
