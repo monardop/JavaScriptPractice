@@ -63,3 +63,18 @@ h1 {
 h3 {
     text-align: center;
 }
+h2 {
+    text-align: center;
+    border: 3px solid black;
+}
+.ganador {
+    font-size: xx-large;
+    font-weight: bolder;
+    background: linear-gradient(#09f, #fff);
+}
+.perdedor {
+    font-size: xx-large;
+    font-weight: bolder;
+    background: #be5151;
+    color: white;
+}
