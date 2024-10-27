@@ -1,53 +1,53 @@
-*{
-    margin:0;
+html {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-button > img{
-    width: 100%;
-}
-button{
-    background-color: rgb(33, 189, 189);
-    border:4px solid rgb(68, 68, 68);
-    margin: 5px;
-}
-button:hover{
-    border: 3px solid rgb(0, 253, 0);
-}
-main{
-    width: 50%;
-    height: 90vh;
-    margin:0 auto;
-    background-color: gray;
-}
-#botones{
-    display: flex;
-    width: 100%;
-    border: 2px solid rgb(67, 67, 67);
-}
-.container > p{
-    text-transform: uppercase;
+h1 {
     text-align: center;
-    margin: 20px 0;
-    color: greenyellow;
-}
-#resultado{
-    width: 200px;
-    margin: auto;
 }
 
-#result {
-    width: 60%;
-    margin: auto;
-}
-#result > button {
-    width: 100px;
-    height: 30px;
-    margin: auto;
-}
-#result > p{
-    font-size: 40px;
-    color: greenyellow;
+.boton {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: 5px solid black;
     text-align: center;
+}
+
+.animacion:hover {
+    height: 10.5rem;
+    width: 10.5rem;
+    color: lightblue;
+    transition: ease-in-out 0.5;
+}
+
+.boton > svg {
+    height: 8rem;
+    width: 8rem;
+    filter: drop-shadow(
+        0 0 10px rgba(0,0,0, .8)
+    )
+}
+
+.botones {
+    position: fixed;
+    height: 30dvh;
+    width: 100dvw;
+    bottom: 0px;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+/* ################################################################ */
+
+.boton-piedra {
+    background: salmon;
+}
+.boton-papel {
+    background-color: yellow;
+}
+
+.boton-tijeras {
+    background-color: aquamarine;
 }
