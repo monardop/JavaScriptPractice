@@ -2,28 +2,33 @@ const rockBtn = document.getElementById("rock");
 const paperBtn = document.getElementById("paper");
 const scissorsBtn = document.getElementById("scissors");
 
+const { piedra, papel, tijeras } = require('./elementosExtra')
 
-function play(election){
-    if (election==rock){
-        setTimeout(function(){document.getElementById("resultado").innerHTML = '<img src="img/papel.svg">';}, 200);
+function getRandom(max) {
+    const jugada = ["papel", "piedra", "tijeras"];
+    return jugada[Math.floor(Math.random() * max)];
+  }
+  
 
-    }if (election==paper) {
-        setTimeout(function(){document.getElementById("resultado").innerHTML = '<img src="img/tijeras.svg">'}, 200);
-    } if (election == scissors) {
-        setTimeout(function(){document.getElementById("resultado").innerHTML = '<img src="img/piedra.svg">'},200);
-    }
-    setTimeout(function(){ document.getElementById('result').innerHTML = '<p>lol'},400);  
-    setTimeout(function(){location.reload()},3000)
+function play(counter) {
+    computerMovement = getRandom();
+    console.log(computerMovement)
+    setTimeout(()=>{
+        const resultArea = document.getElementById()
+    },2000)
+
+
 }
 
+
 rockBtn.addEventListener('click', ()=>{
-    play(rock)
+    play("papel")
 });
 paperBtn.addEventListener('click', ()=>{
-    play(paper)
+    play("tijeras")
 });
 scissorsBtn.addEventListener('click', ()=>{
-   play(scissors)
+   play("piedra")
 });
 
 
