@@ -1,0 +1,69 @@
+
+h1 {
+    text-align: center;
+
+}
+
+main {
+    height: 60dvh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section {
+    display: flex;
+    flex-flow: column;
+    gap: 5dvh;
+    width: 35dvw;
+    margin-left: 5dvw;
+}
+
+.submitBtn {
+    max-width: 10dvw;
+}
+
+input:focus {
+    filter: drop-shadow(
+        0 0 5px rgba(44, 49, 204, 0.8)
+    );
+}
+
+.weather-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60dvw;
+}
+
+.weather-item {
+    border-radius: 5%;
+    background: linear-gradient(purple, pink);
+    width: 80%;
+    padding: 10px;
+    height: fit-content;
+    width: 20dvw;
+    color: white;
+    margin: 10px 5px
+}
+
+.weather-item  h3 {
+    font-size: xx-large;
+}
+
+.data {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.comp-elements {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+}
+.description {
+    font-size: small;
+    margin-left: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
