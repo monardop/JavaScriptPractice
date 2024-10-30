@@ -7,22 +7,23 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Forecast app</h1>
+    
     <main>
       <div class="form-section">
+        <h1>Forecast app</h1>
         <div class="countrySelector">
-            <label for="countrySearch">Select your country </label>
+            <p>Select your country </p>
             <input type="text" placeholder="Argentina" id="countrySearch" />
         </div>
         <div class="daySelector">
-            <label for="">How many days?</label>
+            <p>How many days?</p>
             <input type="number" name="Days" id="amountDays" max="5" min="1">
         </div>
         <button class="submitBtn" id="submitBtn"> Submit </button>
       </div>
 
-      <div class="weather-section">
-
+      <div class="weather-section" id="weather-section">
+        
       </div>
     </main>
     <script src="index.js"></script>
