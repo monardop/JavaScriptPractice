@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Forecast app</h1>
+    <main>
+      <div class="form-section">
+        <div class="countrySelector">
+            <label for="countrySearch">Select your country </label>
+            <input type="text" placeholder="Argentina" id="countrySearch" />
+        </div>
+        <div class="daySelector">
+            <label for="">How many days?</label>
+            <input type="number" name="Days" id="amountDays" max="5" min="1">
+        </div>
+        <button class="submitBtn" id="submitBtn"> Submit </button>
+      </div>
+
+      <div class="weather-section">
+
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
