@@ -1,0 +1,381 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Cuál es la capital de Francia?",
+            "dificultad": 1,
+            "respuesta_correcta": "París",
+            "respuesta2": "Londres",
+            "respuesta3": "Roma",
+            "respuesta4": "Madrid"
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Qué planeta es conocido como el Planeta Rojo?",
+            "dificultad": 1,
+            "respuesta_correcta": "Marte",
+            "respuesta2": "Venus",
+            "respuesta3": "Júpiter",
+            "respuesta4": "Saturno"
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Cuántos colores hay en el arcoíris?",
+            "dificultad": 1,
+            "respuesta_correcta": "Siete",
+            "respuesta2": "Cinco",
+            "respuesta3": "Ocho",
+            "respuesta4": "Seis"
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Quién pintó la Mona Lisa?",
+            "dificultad": 1,
+            "respuesta_correcta": "Leonardo da Vinci",
+            "respuesta2": "Miguel Ángel",
+            "respuesta3": "Picasso",
+            "respuesta4": "Van Gogh"
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué animal es conocido por su capacidad para cambiar de color?",
+            "dificultad": 1,
+            "respuesta_correcta": "Camaleón",
+            "respuesta2": "León",
+            "respuesta3": "Perro",
+            "respuesta4": "Gato"
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Qué instrumento tiene cuerdas y se toca con un arco?",
+            "dificultad": 1,
+            "respuesta_correcta": "Violín",
+            "respuesta2": "Flauta",
+            "respuesta3": "Batería",
+            "respuesta4": "Piano"
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Cuál es el río más largo del mundo?",
+            "dificultad": 1,
+            "respuesta_correcta": "Amazonas",
+            "respuesta2": "Nilo",
+            "respuesta3": "Yangtsé",
+            "respuesta4": "Danubio"
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Quién escribió 'Hamlet'?",
+            "dificultad": 1,
+            "respuesta_correcta": "William Shakespeare",
+            "respuesta2": "Charles Dickens",
+            "respuesta3": "Oscar Wilde",
+            "respuesta4": "Mark Twain"
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Cuál es el símbolo químico del agua?",
+            "dificultad": 1,
+            "respuesta_correcta": "H2O",
+            "respuesta2": "O2",
+            "respuesta3": "HO",
+            "respuesta4": "CO2"
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Cuál es el país más grande del mundo?",
+            "dificultad": 1,
+            "respuesta_correcta": "Rusia",
+            "respuesta2": "China",
+            "respuesta3": "Estados Unidos",
+            "respuesta4": "Canadá"
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué país es conocido por el canguro?",
+            "dificultad": 1,
+            "respuesta_correcta": "Australia",
+            "respuesta2": "Nueva Zelanda",
+            "respuesta3": "Sudáfrica",
+            "respuesta4": "Brasil"
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Cuál es el océano más grande?",
+            "dificultad": 1,
+            "respuesta_correcta": "Océano Pacífico",
+            "respuesta2": "Océano Atlántico",
+            "respuesta3": "Océano Índico",
+            "respuesta4": "Océano Ártico"
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Cuál es el metal más pesado?",
+            "dificultad": 1,
+            "respuesta_correcta": "Osmio",
+            "respuesta2": "Plomo",
+            "respuesta3": "Hierro",
+            "respuesta4": "Cobre"
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Qué gas respiran las plantas?",
+            "dificultad": 1,
+            "respuesta_correcta": "Dióxido de carbono",
+            "respuesta2": "Oxígeno",
+            "respuesta3": "Hidrógeno",
+            "respuesta4": "Nitrógeno"
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Cuál es la fórmula de la velocidad?",
+            "dificultad": 1,
+            "respuesta_correcta": "Distancia/tiempo",
+            "respuesta2": "Masa/tiempo",
+            "respuesta3": "Trabajo/fuerza",
+            "respuesta4": "Energía/masa"
+        },
+        {
+            "id": 16,
+            "pregunta": "¿Cuántos continentes hay?",
+            "dificultad": 1,
+            "respuesta_correcta": "Siete",
+            "respuesta2": "Cinco",
+            "respuesta3": "Seis",
+            "respuesta4": "Cuatro"
+        },
+        {
+            "id": 17,
+            "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
+            "dificultad": 1,
+            "respuesta_correcta": "Francia",
+            "respuesta2": "Italia",
+            "respuesta3": "Alemania",
+            "respuesta4": "Inglaterra"
+        },
+        {
+            "id": 18,
+            "pregunta": "¿Cuál es la fórmula química del gas de oxígeno?",
+            "dificultad": 1,
+            "respuesta_correcta": "O2",
+            "respuesta2": "CO2",
+            "respuesta3": "H2O",
+            "respuesta4": "HO"
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Qué elemento tiene el símbolo 'Fe'?",
+            "dificultad": 1,
+            "respuesta_correcta": "Hierro",
+            "respuesta2": "Flúor",
+            "respuesta3": "Estaño",
+            "respuesta4": "Platino"
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+            "dificultad": 1,
+            "respuesta_correcta": "George Washington",
+            "respuesta2": "Thomas Jefferson",
+            "respuesta3": "Abraham Lincoln",
+            "respuesta4": "John Adams"
+        },
+        {
+            "id": 21,
+            "pregunta": "¿Cuál es el valor aproximado de pi?",
+            "dificultad": 2,
+            "respuesta_correcta": "3.1416",
+            "respuesta2": "3.1215",
+            "respuesta3": "3.1001",
+            "respuesta4": "3.1547"
+        },
+        {
+            "id": 22,
+            "pregunta": "¿Qué tipo de animal es la ballena?",
+            "dificultad": 2,
+            "respuesta_correcta": "Mamífero",
+            "respuesta2": "Pez",
+            "respuesta3": "Reptil",
+            "respuesta4": "Ave"
+        },
+        {
+            "id": 23,
+            "pregunta": "¿Qué proceso químico usan las plantas para convertir la luz en energía?",
+            "dificultad": 2,
+            "respuesta_correcta": "Fotosíntesis",
+            "respuesta2": "Respiración",
+            "respuesta3": "Digestión",
+            "respuesta4": "Transpiración"
+        },
+        {
+            "id": 24,
+            "pregunta": "¿En qué continente se encuentra Egipto?",
+            "dificultad": 2,
+            "respuesta_correcta": "África",
+            "respuesta2": "Asia",
+            "respuesta3": "Europa",
+            "respuesta4": "Oceanía"
+        },
+        {
+            "id": 25,
+            "pregunta": "¿Cuál es el país más poblado del mundo?",
+            "dificultad": 2,
+            "respuesta_correcta": "China",
+            "respuesta2": "India",
+            "respuesta3": "Estados Unidos",
+            "respuesta4": "Rusia"
+        },
+        {
+            "id": 26,
+            "pregunta": "¿Qué fuerza mantiene a los planetas en órbita alrededor del sol?",
+            "dificultad": 2,
+            "respuesta_correcta": "Gravitacional",
+            "respuesta2": "Magnética",
+            "respuesta3": "Electromagnética",
+            "respuesta4": "Nuclear"
+        },
+        {
+            "id": 27,
+            "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+            "dificultad": 2,
+            "respuesta_correcta": "Fémur",
+            "respuesta2": "Húmero",
+            "respuesta3": "Tibia",
+            "respuesta4": "Radio"
+        },
+        {
+            "id": 28,
+            "pregunta": "¿Qué gas se utiliza en el proceso de fotosíntesis?",
+            "dificultad": 2,
+            "respuesta_correcta": "Dióxido de carbono",
+            "respuesta2": "Oxígeno",
+            "respuesta3": "Nitrógeno",
+            "respuesta4": "Hidrógeno"
+        },
+        {
+            "id": 29,
+            "pregunta": "¿Cuál es el número atómico del oxígeno?",
+            "dificultad": 2,
+            "respuesta_correcta": "8",
+            "respuesta2": "6",
+            "respuesta3": "10",
+            "respuesta4": "12"
+        },
+        {
+            "id": 30,
+            "pregunta": "¿Qué nombre recibe el proceso de descomposición de materiales orgánicos?",
+            "dificultad": 2,
+            "respuesta_correcta": "Putrefacción",
+            "respuesta2": "Mineralización",
+            "respuesta3": "Osmosis",
+            "respuesta4": "Hidratación"
+        },
+        {
+            "id": 31,
+            "pregunta": "¿Cuál es el único mamífero que puede volar?",
+            "dificultad": 3,
+            "respuesta_correcta": "Murciélago",
+            "respuesta2": "Águila",
+            "respuesta3": "Pingüino",
+            "respuesta4": "Colibrí"
+        },
+        {
+            "id": 32,
+            "pregunta": "¿Cuál es la ecuación de la teoría de la relatividad de Einstein?",
+            "dificultad": 3,
+            "respuesta_correcta": "E=mc^2",
+            "respuesta2": "F=ma",
+            "respuesta3": "V=d/t",
+            "respuesta4": "PV=nRT"
+        },
+        {
+            "id": 33,
+            "pregunta": "¿Qué filósofo griego fue el maestro de Alejandro Magno?",
+            "dificultad": 3,
+            "respuesta_correcta": "Aristóteles",
+            "respuesta2": "Sócrates",
+            "respuesta3": "Platón",
+            "respuesta4": "Pitágoras"
+        },
+        {
+            "id": 34,
+            "pregunta": "¿Qué elemento tiene el símbolo 'Au' en la tabla periódica?",
+            "dificultad": 3,
+            "respuesta_correcta": "Oro",
+            "respuesta2": "Plata",
+            "respuesta3": "Uranio",
+            "respuesta4": "Arsénico"
+        },
+        {
+            "id": 35,
+            "pregunta": "¿Quién es el autor de 'La República'?",
+            "dificultad": 3,
+            "respuesta_correcta": "Platón",
+            "respuesta2": "Aristóteles",
+            "respuesta3": "Sócrates",
+            "respuesta4": "Epicuro"
+        },
+        {
+            "id": 36,
+            "pregunta": "¿Qué teoría cosmológica describe el origen del universo?",
+            "dificultad": 3,
+            "respuesta_correcta": "Big Bang",
+            "respuesta2": "Teoría de la Evolución",
+            "respuesta3": "Teoría de la Relatividad",
+            "respuesta4": "String Theory"
+        },
+        {
+            "id": 37,
+            "pregunta": "¿Qué es un agujero negro?",
+            "dificultad": 3,
+            "respuesta_correcta": "Región con gravedad intensa",
+            "respuesta2": "Área sin materia",
+            "respuesta3": "Zona de espacio vacío",
+            "respuesta4": "Estrella gigante"
+        },
+        {
+            "id": 38,
+            "pregunta": "¿Qué tipo de energía utiliza una planta nuclear?",
+            "dificultad": 3,
+            "respuesta_correcta": "Energía nuclear",
+            "respuesta2": "Energía solar",
+            "respuesta3": "Energía eólica",
+            "respuesta4": "Energía geotérmica"
+        },
+        {
+            "id": 39,
+            "pregunta": "¿Cuál es la función de los glóbulos rojos?",
+            "dificultad": 3,
+            "respuesta_correcta": "Transportar oxígeno",
+            "respuesta2": "Combatir infecciones",
+            "respuesta3": "Coagular sangre",
+            "respuesta4": "Almacenar nutrientes"
+        },
+        {
+            "id": 40,
+            "pregunta": "¿Cuál es el número primo más pequeño?",
+            "dificultad": 3,
+            "respuesta_correcta": "2",
+            "respuesta2": "3",
+            "respuesta3": "1",
+            "respuesta4": "5"
+        }
+    ],
+    "nivel": [
+        {
+            "id": 1,
+            "nombre": "Fácil",
+            "tiempo_respuesta": 40 
+        },
+        {
+            "id": 2,
+            "nombre": "Medio",
+            "tiempo_respuesta": 30 
+        },
+        {
+            "id": 3,
+            "nombre": "Difícil",
+            "tiempo_respuesta": 20
+        }
+    ]
+}
